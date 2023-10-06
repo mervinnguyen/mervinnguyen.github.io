@@ -41,7 +41,10 @@
                <div class="media">
                   <div class="media-body">
                      <h4 class="d-none d-sm-block">A little bit about my beliefs and aspirations...</h4>
-                     <p class="mt- 1">I believe there are two types of people. People who choose a career that comes easy to them, and people who find something challenging that they love and work hard to achieve in that field. I am the latter of the two, because I know I struggled so much to be where I am.<br><br>I remember attending my first ever programming class thinking, "Do I even belong here?" Weeks go by with many late-night projects, only to do poorly on most. At this point, many people would be discouraged and possibly quit, but I know I did not get accepted into this major just to forfeit. I loved the feeling of fixing those segmentation faults which kept you up for hours. That feeling, which I know many can relate to, is what kept me going. I stayed resilient and recently graduated from the University of California, Irvine with a B.S. in Computer Science. I specialized in Systems and Software which dives deeply into Operating Systems. My passion is to work with Embedded Software/Systems. However, because I am a new grad, I am open to new opportunities knowing that this is the perfect time to explore untouched areas of Software Engineering.<br><br>I understand hiring a new grad is risky for many companies. In fact it makes sense to hire someone with more experience who can get the job done, but if the rookies aren't given a chance, where are all the Senior Developers going to be in.. let's say 20 years? Not only am I looking for a company that excites me with the work they do, but also one that takes risks and has strong principals in helping others. Teamwork is extremely important in this field and it would be nice for a company to utilize creative ideas from their employees such as pair programming, where new grads like me can have a mentorship with experienced Software Engineers.<br><br>So what would I bring to the table? I am extremely hard working, motivated, and a curious learner who's waiting to be given a chance. My experience as a Quality Assurance Engineer has taught me not only about debugging, but also that creating clean software is not an easy job. I do not take well written code for granted, and try my best to do the same for every line of code I write. I still have so much to learn, and the best way to learn is through experience . If you have come this far, I am glad I grabbed your attention and thankful for your time. I hope my story depicts me as a potential candidate. If the company holds similar values and principals as I do, I urge you to get in touch and set up an interview.<br><br></p>
+                     <p class="mt- 1">I believe there are two types of people. People who choose a career that comes easy to them, and people who find something challenging that they love and work hard to achieve in that field. I am the latter of the two, because I know I struggled so much to be where I am.<br><br>
+                     I remember attending my first ever programming class thinking, "Do I even belong here?" Weeks go by with many late-night projects, only to do poorly on most. At this point, many people would be discouraged and possibly quit, but I know I did not get accepted into this major just to forfeit. I loved the feeling of fixing those segmentation faults which kept you up for hours. That feeling, which I know many can relate to, is what kept me going. I stayed resilient and recently graduated from the University of California, Irvine with a B.S. in Computer Science. I specialized in Systems and Software which dives deeply into Operating Systems.<br><br>
+                     After completing my internship and a relatively long job search (9 months), I landed a position at Rivian Automotive as an Embedded Software Engineer. I currently work on the inverter project writing software that is related to safety. What happens when a vehicle crashes? What happens if the microcontroller stops beavhing as it should? What if the processor just resets randomly? With a team of experts, we help answer and execute these challenging questions.<br><br>
+                     I am relatively early in my career, but with that, comes with motiviation and passion to continue learning new technologies. Currently, I am working on breaking into the Embedded Linux terrority by working on personal projects and expanding my knowledge on fundamentals such as the Kernel and Bootloader.<br><br></p>
                   </div>
                   <div class="d-none d-sm-block offset-md-1 align-self-center"><img id="portrait-img" class="d-flex img-thumbnail" src="img/shogo.JPG" alt="portrait"></div>
                </div>
@@ -57,21 +60,30 @@
          </div>
          <div class="row row-content-spacer">
             <div class="col col-12">
-               <h4 class="mt-0 d-block d-sm-none">Rivian</h4>
+               <h4 class="mt-0 d-block d-sm-none">Rivian Automotive</h4>
                <i>
                   <p class="mt-0 d-block d-sm-none">Embedded Software Engineer</p>
                </i>
                <div class="media wow slideInUp">
                   <div class="media-body">
-                     <h4 class="mt-0 d-none d-sm-block">Rivian</h4>
+                     <h4 class="mt-0 d-none d-sm-block">Rivian Automotive</h4>
                      <i>
-                        <p class="mt-0 d-none d-sm-block">Embedded Software Engineer</p>
+                        <p class="mt-0 d-none d-sm-block">Embedded Software Engineer II</p>
                      </i>
                      <ul>
-                        <li>Design embedded systems software by applying principles of computer science, engineering, and mathematical analysis</li>
-                        <li>Integrate Unit Test Framework into code base to add testing coverage for various embedded functions</li>
-                        <li>Utilize tools such as PCAN, CANape, and internal XCP tools to debug and analyze the inverter</li>
-                        <li>iImplement functional safety requirements to achieve ASIL-D and ISO-26262 compliance</li>
+                        <li>Implemented supervisor task utilizing an external watchdog communicating over SPI that overlooks multiple<br>tasks in a tricore ARM based system to verify execution sequence and timing.</li>
+                        <li>Lead and executed safety critical features such as vehicle crash signaling, reaction to system reset due<br>to an unresponsive task, and other sensitive features to keep the driver and passengers safe at<br>any given time.</li>
+                        <li>Identified and addressed issue where a delay function became an infinite loop with extremely specific<br>values causing run-time resets to occur at an extreme rare percentage.</li>
+                        <li>Utilized debugger and oscilloscope to modify system reactions before an unexpected reset to ensure vehicle<br>remains in a safe state.</li>
+                     </ul>
+                     <i>
+                        <p class="mt-0 d-none d-sm-block">Embedded Software Engineer I</p>
+                     </i>
+                     <ul>
+                        <li>Worked closely with Electrical Engineering team to bring capabilities such as voltage to temperature<br>conversion, hardware diagnostics through software, and populating test points for debugging.</li>
+                        <li>Provided API’s that interacted with GPIO’s and other device peripherals to various members of the team<br>to interact and communicate with different parts of the system.</li>
+                        <li>Revised CAN database as well as source code to modify behavior of message transmission rate and payload<br>to track data to improve feature stability.</li>
+                        <li>Performed and added unit testing for various embedded functions using Google Test and Fake Function Framework.</li>
                      </ul>
                   </div>
                   <div class="d-none d-sm-block"><img id="rivian-img" class="d-flex mr-3 img-thumbnail align-self-center" src="img/rivian.png" alt="rivian"></div>
@@ -111,6 +123,17 @@
          </div>
          <div class="row row-content-spacer">
             <div class="col col-12 wow slideInLeft">
+               <h4 class="col mt-0 d-block d-sm-none">Embedded Linux (Beaglebone Black) <span class="badge badge-info">C</span></h4>
+               <div class="media">
+                  <div class="media-body">
+                     <h4 class="mt-0 d-none d-sm-block">Embedded Linux (Beaglebone Black) <span class="badge badge-info">C</span></h4>
+                     <p class="d-none d-sm-block">In the attempt to break into the Embedded Linux industry, I have been working with various aspects of Linux to learn the fundamentals. I manually configured a linux image using buildroot to learn and understand Bootloader, Kernel, and file system configurations. I also created a TFTP server on a host Ubuntu machine to transfer files between the host and beaglebone. In the process the beaglbone booting up, it fetches the Linux image files from U-boot to boot into Linux. The linux image (zImage and .dtb are written into memory. I also wrote a extremely simple Linux kernel module and modified the build configuration files such as KConfig and Makefile to compile the module directly into the source.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="row row-content-spacer">
+            <div class="col col-12 wow slideInRight">
                <h4 class="col mt-0 d-block d-sm-none">Game created using MicroController <span class="badge badge-info">C</span></h4>
                <div class="media">
                   <div class="media-body">
@@ -118,16 +141,14 @@
                      <a class="d-none d-sm-block" href="https://github.com/shooguu/TRex-Game" target="_blank">https://github.com/shooguu/TRex-Game</a>
                      <p class="d-none d-sm-block">Using an Atmega MicroController, LCD, and Keypad, my partner and I created a small game that is similar to the T-Rex game on Chrome. The map is generated randomly and the speed accelerates as the game progresses. The code is constantly checking for input to make sure there is no latency. This was by far one of the most interesting and exciting projects I have worked on.</p>
                   </div>
-                  <div class="videoWrapper offset-md-1"><iframe class="d-none d-sm-block" width="448" height="252" src="https://www.youtube.com/embed/LPM1aiRP0mc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><iframe class="col d-block d-sm-none" width="336" height="189" src="https://www.youtube.com/embed/LPM1aiRP0mc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
                </div>
             </div>
          </div>
          <div class="row row-content-spacer">
-            <div class="col col-12 wow slideInRight">
+            <div class="col col-12 wow slideInLeft">
                <h4 class="col mt-0 d-block d-sm-none">Mimic real world using Threading <span class="badge badge-info">Java</span></h4>
                <div class="media">
-                  <div class="videoWrapper"><iframe class="d-none d-sm-block" width="448" height="252" src="https://www.youtube.com/embed/fJEH089YnMk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><iframe class="col d-block d-sm-none" width="336" height="189" src="https://www.youtube.com/embed/fJEH089YnMk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-                  <div class="media-body offset-md-1">
+                  <div class="media-body">
                      <h4 class="mt-0 d-none d-sm-block">Mimic real world using Threading <span class="badge badge-info">Java</span></h4>
                      <p class="d-none d-sm-block">This project was intended to mimic a real life situation using Threads. Multiple users attempt to write to Disk and print using a virutal printer. The idea is to balance the data written to the Disks and the data being printed.</p>
                   </div>
@@ -135,26 +156,11 @@
             </div>
          </div>
          <div class="row row-content-spacer">
-            <div class="mt-0 col-12 wow slideInLeft">
-               <h4 class="col mt-0 d-block d-sm-none">TicTacToe <span class="badge badge-info">C</span></h4>
-               <div class="media">
-                  <div class="media-body">
-                     <h4 class="mt-0 d-none d-sm-block">TicTacToe <span class="badge badge-info">C</span></h4>
-                     <a class="d-none d-sm-block" href="https://github.com/shooguu/TicTacToe" target="_blank">https://github.com/shooguu/TicTacToe</a>
-                     <p class="mb-0 d-none d-sm-block">This project was intended to re-familiarize and code the game logic in the C programming language. Althought the GUI is on the commandline, the game is fairly simple to play. The user is given the option to input the numbers 1 - 9. Each number represents the space in the grid respectively.</p>
-                  </div>
-                  <div class="offset-md-1 d-none d-sm-block"><img id="project-img" class="d-flex img-thumbnail" src="img/tictactoe.JPG" alt="tictactoe"></div>
-                  <div class="col-12 d-block d-sm-none"><img id="project-img" class="d-flex img-thumbnail" src="img/tictactoe.JPG" alt="tictactoe"></div>
-               </div>
-            </div>
-         </div>
-         <div class="row row-content-spacer">
             <div class="col col-12 wow slideInRight">
                <h4 class="col mt-0 d-block d-sm-none">Automation Framework <span class="badge badge-info">Python3</span></h4>
                <div class="media">
-                  <div class="d-none d-sm-block"><img id="prism-img-2" class="d-flex img-thumbnail" src="img/prism.jpg" alt="prism"></div>
                   <div class="col-12 d-block d-sm-none"><img id="prism-img-2" class="d-flex img-thumbnail" src="img/prism.jpg" alt="prism"></div>
-                  <div class="media-body offset-md-1">
+                  <div class="media-body">
                      <h4 class="mt-0 d-none d-sm-block">Automation Framework <span class="badge badge-info">Python3</span></h4>
                      <p class="mb-0 d-none d-sm-block">This project was done at my previous employer, Prism Software. I was involved in creating a framework for running unit tests. A bash script was created to pull the latest changes and execute the test suite every hour. The test executer checks to see if a new build has been released. If a new build was released, all of the unit tests would run. Once the code has executed, it uploads all of the results to Jira and emails the test results to the team.</p>
                   </div>
@@ -176,18 +182,6 @@
                      <h4 class="mt-0">University of California, Irvine</h4>
                      <p class="d-none d-sm-block">Graduated with a B.S. in Computer Science on March 2020.<br>Specialized in Systems and Software which deals with principles<br>and design of systems and software.<br><b><i>September 2017 - March 2020</i></b></p>
                      <p class="d-block d-sm-none">Graduated with B.S. in Computer Science</p>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="row row-content-spacer">
-            <div class="col col-12 col-md">
-               <div class="media wow fadeInUp">
-                  <img id="edu-img" class="d-flex mr-3 img-thumbnail align-self-center" src="img/citrus.png" alt="citrus">
-                  <div class="media-body">
-                     <h4 class="mt-0">Citrus College</h4>
-                     <p class="d-none d-sm-block">Transferred out of Citrus College with a concentration<br>in pre-engineering. This is where I found my passion for<br>Computer Science.<br><b><i>August 2014 - August 2017</i></b></p>
-                     <p class="d-block d-sm-none">Transferred out with concentration in pre-engineering</p>
                   </div>
                </div>
             </div>
