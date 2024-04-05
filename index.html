@@ -1,192 +1,128 @@
-<!DOCTYPE html>
-<html lang="en">
-   <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
-      <meta http-equiv="x-ua-compatible" content="ie=edge">
-      <link rel="stylesheet" href="css/main.css">
-      <title>Shogo Nakamura</title>
-   </head>
-   <body data-spy="scroll" data-target="#Navbar" data-offset="1">
-      <nav class="navbar navbar-dark navbar-expand-sm fixed-top animated fadeIn delay-3s">
-         <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="Navbar">
-               <ul class="navbar-nav nav-pills mr-auto">
-                  <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
-               </ul>
-            </div>
-         </div>
-         <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/shogonakamura21" target="_blank"><i class="fa fa-linkedin"></i></a> <a class="btn btn-social-icon btn-github" href="https://github.com/shooguu" target="_blank"><i class="fa fa-github"></i></a> <a class="btn btn-social-icon" href="mailto:shogonakamura21@gmail.com"><i class="fa fa-envelope-o"></i></a>
-      </nav>
-      <div class="container h-100">
-         <div id="home" class="row h-100 align-items-center">
-            <h1 id="welcome-header" class="col text-center animated fadeInDown delay-0.3s">WELCOME</h1>
-         </div>
-      </div>
-      <div class="container">
-         <div class="row row-content" id="about">
-            <div class="col">
-               <h1 id="header">ABOUT</h1>
-            </div>
-         </div>
-         <div class="row row-content-spacer">
-            <div class="col col-12 wow slideInUp">
-               <h4 class="d-block d-sm-none">A little bit about my beliefs and aspirations...</h4>
-               <div class="d-block d-sm-none"><img id="portrait-img2" class="d-flex img-thumbnail" src="img/shogo.JPG" alt="portrait"></div>
-               <div class="media">
-                  <div class="media-body">
-                     <h4 class="d-none d-sm-block">A little bit about my beliefs and aspirations...</h4>
-                     <p class="mt- 1">I believe there are two types of people. People who choose a career that comes easy to them, and people who find something challenging that they love and work hard to achieve in that field. I am the latter of the two, because I know I struggled so much to be where I am.<br><br>
-                     I remember attending my first ever programming class thinking, "Do I even belong here?" Weeks go by with many late-night projects, only to do poorly on most. At this point, many people would be discouraged and possibly quit, but I know I did not get accepted into this major just to forfeit. I loved the feeling of fixing those segmentation faults which kept you up for hours. That feeling, which I know many can relate to, is what kept me going. I stayed resilient and recently graduated from the University of California, Irvine with a B.S. in Computer Science. I specialized in Systems and Software which dives deeply into Operating Systems.<br><br>
-                     After completing my internship and a relatively long job search (9 months), I landed a position at Rivian Automotive as an Embedded Software Engineer. I currently work on the inverter project writing software that is related to safety. What happens when a vehicle crashes? What happens if the microcontroller stops beavhing as it should? What if the processor just resets randomly? With a team of experts, we help answer and execute these challenging questions.<br><br>
-                     I am relatively early in my career, but with that, comes with motiviation and passion to continue learning new technologies. Currently, I am working on breaking into the Embedded Linux terrority by working on personal projects and expanding my knowledge on fundamentals such as the Kernel and Bootloader.<br><br></p>
-                  </div>
-                  <div class="d-none d-sm-block offset-md-1 align-self-center"><img id="portrait-img" class="d-flex img-thumbnail" src="img/shogo.JPG" alt="portrait"></div>
-               </div>
-               <a class="btn btn-primary" href="img/Resume.pdf" target="_blank">Resume</a>
-            </div>
-         </div>
-      </div>
-      <div class="container" id="experience">
-         <div class="row row-content">
-            <div class="col">
-               <h1 id="header">EXPERIENCE</h1>
-            </div>
-         </div>
-         <div class="row row-content-spacer">
-            <div class="col col-12">
-               <h4 class="mt-0 d-block d-sm-none">Rivian Automotive</h4>
-               <i>
-                  <p class="mt-0 d-block d-sm-none">Embedded Software Engineer</p>
-               </i>
-               <div class="media wow slideInUp">
-                  <div class="media-body">
-                     <h4 class="mt-0 d-none d-sm-block">Rivian Automotive</h4>
-                     <i>
-                        <p class="mt-0 d-none d-sm-block">Embedded Software Engineer II</p>
-                     </i>
-                     <ul>
-                        <li>Implemented supervisor task utilizing an external watchdog communicating over SPI that overlooks multiple<br>tasks in a tricore ARM based system to verify execution sequence and timing.</li>
-                        <li>Lead and executed safety critical features such as vehicle crash signaling, reaction to system reset due<br>to an unresponsive task, and other sensitive features to keep the driver and passengers safe at<br>any given time.</li>
-                        <li>Identified and addressed issue where a delay function became an infinite loop with extremely specific<br>values causing run-time resets to occur at an extreme rare percentage.</li>
-                        <li>Utilized debugger and oscilloscope to modify system reactions before an unexpected reset to ensure vehicle<br>remains in a safe state.</li>
-                     </ul>
-                     <i>
-                        <p class="mt-0 d-none d-sm-block">Embedded Software Engineer I</p>
-                     </i>
-                     <ul>
-                        <li>Worked closely with Electrical Engineering team to bring capabilities such as voltage to temperature<br>conversion, hardware diagnostics through software, and populating test points for debugging.</li>
-                        <li>Provided API’s that interacted with GPIO’s and other device peripherals to various members of the team<br>to interact and communicate with different parts of the system.</li>
-                        <li>Revised CAN database as well as source code to modify behavior of message transmission rate and payload<br>to track data to improve feature stability.</li>
-                        <li>Performed and added unit testing for various embedded functions using Google Test and Fake Function Framework.</li>
-                     </ul>
-                  </div>
-                  <div class="d-none d-sm-block"><img id="rivian-img" class="d-flex mr-3 img-thumbnail align-self-center" src="img/rivian.png" alt="rivian"></div>
-               </div>
-            </div>
-         </div>
-         <div class="row row-content-spacer">
-            <div class="col col-12">
-               <h4 class="mt-0 d-block d-sm-none">Prism Software</h4>
-               <i>
-                  <p class="mt-0 d-block d-sm-none">Quality Assurance Engineer</p>
-               </i>
-               <div class="media wow slideInUp">
-                  <div class="media-body">
-                     <h4 class="mt-0 d-none d-sm-block">Prism Software</h4>
-                     <i>
-                        <p class="mt-0 d-none d-sm-block">Quality Assurance Engineer</p>
-                     </i>
-                     <ul>
-                        <li>Wrote automated test cases using Python for unit testing (PyTest) using the company’s API which helped<br>decrease regression testing time by more than 50%</li>
-                        <li>Helped create a framework that can run a test suite anytime a new a build is pushed using a Windows Server<br>machine and event scheduler</li>
-                        <li>Involved in redesign of a web application to improve user experience</li>
-                        <li>Automated incoming bug tickets to be sorted by priority and created a verification system in which to decide<br>whether the bug is reproducible or not</li>
-                        <li>Perform inspections and conduct testing to locate defects in the software and report results to the respective Engineering teams</li>
-                     </ul>
-                  </div>
-                  <div class="d-none d-sm-block"><img id="prism-img" class="d-flex mr-3 img-thumbnail align-self-center" src="img/prism.jpg" alt="prism"></div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <div class="container">
-         <div class="row row-content" id="projects">
-            <div class="col">
-               <h1 id="header">PROJECTS</h1>
-            </div>
-         </div>
-         <div class="row row-content-spacer">
-            <div class="col col-12 wow slideInLeft">
-               <h4 class="col mt-0 d-block d-sm-none">Embedded Linux (Beaglebone Black) <span class="badge badge-info">C</span></h4>
-               <div class="media">
-                  <div class="media-body">
-                     <h4 class="mt-0 d-none d-sm-block">Embedded Linux (Beaglebone Black) <span class="badge badge-info">C</span></h4>
-                     <p class="d-none d-sm-block">In the attempt to break into the Embedded Linux industry, I have been working with various aspects of Linux to learn the fundamentals. I manually configured a linux image using buildroot to learn and understand Bootloader, Kernel, and file system configurations. I also created a TFTP server on a host Ubuntu machine to transfer files between the host and beaglebone. In the process the beaglbone booting up, it fetches the Linux image files from U-boot to boot into Linux. The linux image (zImage and .dtb are written into memory. I also wrote a extremely simple Linux kernel module and modified the build configuration files such as KConfig and Makefile to compile the module directly into the source.</p>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="row row-content-spacer">
-            <div class="col col-12 wow slideInRight">
-               <h4 class="col mt-0 d-block d-sm-none">Game created using MicroController <span class="badge badge-info">C</span></h4>
-               <div class="media">
-                  <div class="media-body">
-                     <h4 class="mt-0 d-none d-sm-block">Game created using MicroController <span class="badge badge-info">C</span></h4>
-                     <a class="d-none d-sm-block" href="https://github.com/shooguu/TRex-Game" target="_blank">https://github.com/shooguu/TRex-Game</a>
-                     <p class="d-none d-sm-block">Using an Atmega MicroController, LCD, and Keypad, my partner and I created a small game that is similar to the T-Rex game on Chrome. The map is generated randomly and the speed accelerates as the game progresses. The code is constantly checking for input to make sure there is no latency. This was by far one of the most interesting and exciting projects I have worked on.</p>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="row row-content-spacer">
-            <div class="col col-12 wow slideInLeft">
-               <h4 class="col mt-0 d-block d-sm-none">Mimic real world using Threading <span class="badge badge-info">Java</span></h4>
-               <div class="media">
-                  <div class="media-body">
-                     <h4 class="mt-0 d-none d-sm-block">Mimic real world using Threading <span class="badge badge-info">Java</span></h4>
-                     <p class="d-none d-sm-block">This project was intended to mimic a real life situation using Threads. Multiple users attempt to write to Disk and print using a virutal printer. The idea is to balance the data written to the Disks and the data being printed.</p>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="row row-content-spacer">
-            <div class="col col-12 wow slideInRight">
-               <h4 class="col mt-0 d-block d-sm-none">Automation Framework <span class="badge badge-info">Python3</span></h4>
-               <div class="media">
-                  <div class="col-12 d-block d-sm-none"><img id="prism-img-2" class="d-flex img-thumbnail" src="img/prism.jpg" alt="prism"></div>
-                  <div class="media-body">
-                     <h4 class="mt-0 d-none d-sm-block">Automation Framework <span class="badge badge-info">Python3</span></h4>
-                     <p class="mb-0 d-none d-sm-block">This project was done at my previous employer, Prism Software. I was involved in creating a framework for running unit tests. A bash script was created to pull the latest changes and execute the test suite every hour. The test executer checks to see if a new build has been released. If a new build was released, all of the unit tests would run. Once the code has executed, it uploads all of the results to Jira and emails the test results to the team.</p>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <div class="container">
-         <div class="row row-content" id="education">
-            <div class="col">
-               <h1 id="header">EDUCATION</h1>
-            </div>
-         </div>
-         <div class="row row-content-spacer">
-            <div class="col col-12">
-               <div class="media wow fadeInUp">
-                  <img id="edu-img" class="d-flex mr-3 img-thumbnail align-self-center" src="img/uci.png" alt="uci">
-                  <div class="media-body">
-                     <h4 class="mt-0">University of California, Irvine</h4>
-                     <p class="d-none d-sm-block">Graduated with a B.S. in Computer Science on March 2020.<br>Specialized in Systems and Software which deals with principles<br>and design of systems and software.<br><b><i>September 2017 - March 2020</i></b></p>
-                     <p class="d-block d-sm-none">Graduated with B.S. in Computer Science</p>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <script src="js/main.js"></script>
-   </body>
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="logo">
+							<span class="icon fa-user"></span>
+						</div>
+						<div class="content">
+							<div class="inner">
+								<h1>Portfolio</h1>
+								<p>Embedded Software Engineer II @ Rivian</p>
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="#intro">Intro</a></li>
+								<li><a href="#work">Work</a></li>
+								<li><a href="#resume">Resume</a></li>
+								<li><a href="#projects">Projects</a></li>
+								<!--<li><a href="#elements">Elements</a></li>-->
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+                        <article id="intro">
+                            <h2 class="major">Intro</h2>
+                            <span class="image main"><img src="images/pic01.jpg" alt="" /></span>
+                            <h2 class="d-none d-sm-block">A little bit about my beliefs and aspirations...</h2>
+                            <p>I believe there are two types of people. People who choose a career that comes easy to them, and people who find something challenging that they love and work hard to achieve in that field. I am the latter of the two, because I know I struggled so much to be where I am.</p>
+
+                            <p>I remember attending my first ever programming class thinking, "Do I even belong here?" Weeks go by with many late-night projects, only to do poorly on most. At this point, many people would be discouraged and possibly quit, but I know I did not get accepted into this major just to forfeit. I loved the feeling of fixing those segmentation faults which kept you up for hours. That feeling, which I know many can relate to, is what kept me going. I stayed resilient and recently graduated from the University of California, Irvine with a B.S. in Computer Science. I specialized in Systems and Software which dives deeply into Operating Systems.</p>
+
+                            <p>After completing my internship and a relatively long job search (9 months), I landed a position at Rivian Automotive as an Embedded Software Engineer. I currently work on the inverter project writing software that is related to safety. What happens when a vehicle crashes? What happens if the microcontroller stops beavhing as it should? What if the processor just resets randomly? With a team of experts, we help answer and execute these challenging questions.</p>
+
+                            <p>I am relatively early in my career, but with that, comes with motiviation and passion to continue learning new technologies. Currently, I am working on breaking into the Embedded Linux terrority by working on personal projects and expanding my knowledge on fundamentals such as the Kernel and Bootloader.</p>
+                        </article>
+
+                    <!-- Work -->
+                        <article id="work">
+                            <h2 class="major">Work</h2>
+                            <span class="image main"><img src="images/pic02.jpg" alt="" /></span>
+                            <h2 class="mt-0 d-none d-sm-block">Rivian Automotive</h2>
+                            <h3><p class="mt-0 d-none d-sm-block">Embedded Software Engineer II</p></h3>
+                            <ul>
+                                <li>Implemented supervisor task utilizing an external watchdog communicating over SPI that overlooks multiple<br>tasks in a tricore ARM based system to verify execution sequence and timing.</li>
+                                <li>Lead and executed safety critical features such as vehicle crash signaling, reaction to system reset due<br>to an unresponsive task, and other sensitive features to keep the driver and passengers safe at<br>any given time.</li>
+                                <li>Identified and addressed issue where a delay function became an infinite loop with extremely specific<br>values causing run-time resets to occur at an extreme rare percentage.</li>
+                                <li>Utilized debugger and oscilloscope to modify system reactions before an unexpected reset to ensure vehicle<br>remains in a safe state.</li>
+                            </ul>
+                            <h3><p class="mt-0 d-none d-sm-block">Embedded Software Engineer I</p></h3>
+                            <ul>
+                                <li>Worked closely with Electrical Engineering team to bring capabilities such as voltage to temperature<br>conversion, hardware diagnostics through software, and populating test points for debugging.</li>
+                                <li>Provided API’s that interacted with GPIO’s and other device peripherals to various members of the team<br>to interact and communicate with different parts of the system.</li>
+                                <li>Revised CAN database as well as source code to modify behavior of message transmission rate and payload<br>to track data to improve feature stability.</li>
+                                <li>Performed and added unit testing for various embedded functions using Google Test and Fake Function Framework.</li>
+                            </ul>
+                            <span class="image main"><img src="images/pic02_1.jpg" alt="" /></span>
+                            <h2 class="mt-0 d-none d-sm-block">Prism Software</h2>
+                            <h3><p class="mt-0 d-none d-sm-block">Quality Assurance Engineer</p></h3>
+                            <ul>
+                                <li>Wrote automated test cases using Python for unit testing (PyTest) using the company’s API which helped<br>decrease regression testing time by more than 50%</li>
+                                <li>Helped create a framework that can run a test suite anytime a new a build is pushed using a Windows Server<br>machine and event scheduler</li>
+                                <li>Involved in redesign of a web application to improve user experience</li>
+                                <li>Automated incoming bug tickets to be sorted by priority and created a verification system in which to decide<br>whether the bug is reproducible or not</li>
+                                <li>Perform inspections and conduct testing to locate defects in the software and report results to the respective Engineering teams</li>
+                            </ul>
+                        </article>
+
+                    <!-- Resume -->
+                        <article id="resume">
+                            <h2 class="major">Resume</h2>
+                            <embed src="images/Resume.pdf" width="750px" height="970px" />
+                        </article>
+
+                    <!-- Projects -->
+                        <article id="projects">
+                            <h2 class="major">Projects</h2>
+                            <span class="image main"><img src="images/project1.jpg" alt="" /></span>
+                            <h3 class="mt-0 d-none d-sm-block">Embedded Linux (Beaglebone Black)</h3>
+                            <p>In the attempt to break into the Embedded Linux industry, I have been working with various aspects of Linux to learn the fundamentals. I manually configured a linux image using buildroot to learn and understand Bootloader, Kernel, and file system configurations. I also created a TFTP server on a host Ubuntu machine to transfer files between the host and beaglebone. In the process the beaglbone booting up, it fetches the Linux image files from U-boot to boot into Linux. The linux image (zImage and .dtb are written into memory. I also wrote a extremely simple Linux kernel module and modified the build configuration files such as KConfig and Makefile to compile the module directly into the source.</p>
+                            <span class="image main"><img src="images/project2.jpg" alt="" /></span>
+                            <a href="https://github.com/shooguu/TRex-Game">
+                                <h3>
+                                    <p class="mt-0 d-none d-sm-block">
+                                        <u>Basic platform game (ATmega32)</u>
+                                    </p>
+                                </h3>
+                            </a>
+                            <p>Using an Atmega MicroController, LCD, and Keypad, my partner and I created a small game that is similar to the T-Rex game on Chrome. The map is generated randomly and the speed accelerates as the game progresses. The code is constantly checking for input to make sure there is no latency. This was by far one of the most interesting and exciting projects I have worked on.</p>
+                            <span class="image main"><img src="images/pic02_1.jpg" alt="" /></span>
+                            <h3><p class="mt-0 d-none d-sm-block">Automation Framework</p></h3>
+                            <p>This project was done at my previous employer, Prism Software. I was involved in creating a framework for running unit tests. A bash script was created to pull the latest changes and execute the test suite every hour. The test executer checks to see if a new build has been released. If a new build was released, all of the unit tests would run. Once the code has executed, it uploads all of the results to Jira and emails the test results to the team.</p>
+                        </article>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">Shogo Nakamura</p>
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
