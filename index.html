@@ -91,6 +91,15 @@
                     <!-- Projects -->
                         <article id="projects">
                             <h2 class="major">Projects</h2>
+                            <span class="image main"><img src="images/esp32.jpg" alt="" /></span>
+                            <a href="https://github.com/shooguu/esp-idf-bme280">
+                                <h3>
+                                    <p class="mt-0 d-none d-sm-block">
+                                        <u>BME280 SPI Driver C++ (ESP32)</u>
+                                    </p>
+                                </h3>
+                            </a>
+                            <p>The BME280 SPI driver was written using C++ and programmed on the ESP32 using ESP-IDF. The driver was written from scratch using the reference manual and supports all available reading from the sensor. Github shows various drivers for I2C implementation, however very limited for SPI, which is one of the reasons for implementing this driver.</p>
                             <span class="image main"><img src="images/project1.jpg" alt="" /></span>
                             <h3 class="mt-0 d-none d-sm-block">Embedded Linux (Beaglebone Black)</h3>
                             <p>In the attempt to break into the Embedded Linux industry, I have been working with various aspects of Linux to learn the fundamentals. I manually configured a linux image using buildroot to learn and understand Bootloader, Kernel, and file system configurations. I also created a TFTP server on a host Ubuntu machine to transfer files between the host and beaglebone. In the process the beaglbone booting up, it fetches the Linux image files from U-boot to boot into Linux. The linux image (zImage and .dtb are written into memory. I also wrote a extremely simple Linux kernel module and modified the build configuration files such as KConfig and Makefile to compile the module directly into the source.</p>
@@ -103,9 +112,6 @@
                                 </h3>
                             </a>
                             <p>Using an Atmega MicroController, LCD, and Keypad, my partner and I created a small game that is similar to the T-Rex game on Chrome. The map is generated randomly and the speed accelerates as the game progresses. The code is constantly checking for input to make sure there is no latency. This was by far one of the most interesting and exciting projects I have worked on.</p>
-                            <span class="image main"><img src="images/pic02_1.jpg" alt="" /></span>
-                            <h3><p class="mt-0 d-none d-sm-block">Automation Framework</p></h3>
-                            <p>This project was done at my previous employer, Prism Software. I was involved in creating a framework for running unit tests. A bash script was created to pull the latest changes and execute the test suite every hour. The test executer checks to see if a new build has been released. If a new build was released, all of the unit tests would run. Once the code has executed, it uploads all of the results to Jira and emails the test results to the team.</p>
                         </article>
 					</div>
 
